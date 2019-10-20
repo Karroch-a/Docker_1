@@ -1,0 +1,3 @@
+#bin/bash
+docker build -t mario .
+docker run -it -p 3000:80 mario bash

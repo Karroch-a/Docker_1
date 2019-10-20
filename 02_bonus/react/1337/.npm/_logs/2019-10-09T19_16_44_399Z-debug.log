@@ -1,0 +1,17 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@6.10.3
+3 info using node@v12.10.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/1337/package.json'
+5 verbose cwd /1337
+6 verbose Linux 4.9.49-moby
+7 verbose argv "/usr/bin/node" "/usr/bin/npm" "start"
+8 verbose node v12.10.0
+9 verbose npm  v6.10.3
+10 error code ENOENT
+11 error syscall open
+12 error path /1337/package.json
+13 error errno -2
+14 error enoent ENOENT: no such file or directory, open '/1337/package.json'
+15 error enoent This is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
